@@ -62,10 +62,14 @@ a:active {
     color: white;
     background-color: #39006b;
 }
-.my-button {
+.btn.my-button {
     margin-top: 5px;
     border: 1px solid white;
     color: white;
+    background: black;
+}
+.btn.my-button:hover {
+    border: 1px solid red;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -79,8 +83,19 @@ a:active {
     background: none;
 }
 
-.btn:hover {
+.dropdown-search-bar {
+    border: 1px solid white;
+}
+
+.btn {
     background: #39006b;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+/* --------BACKGROUND COLOR FOR BTN-class:hover------- */
+.btn:hover {
+    background: white;
+    color: black;
 }
 .dropdown-item {
     color: white;
@@ -139,18 +154,18 @@ a:active {
 }
 
 .card-img-top {
-    /* width: 120px;
-  height: 190px; */
-    border: 2px solid white;
+    /* width: 120px; */
+    max-height: 14.2rem;
+    /* border: 2px solid white;
     border-radius: 8px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; */
 }
 
-.card-img-top:hover {
+/* .card-img-top:hover {
     transform: scale(1.05);
     box-shadow: 2px 2px 10px rgb(97, 96, 96);
     cursor: pointer;
-}
+} */
 
 .container-footer {
     width: 100%;
