@@ -63,7 +63,7 @@ a:active {
     background-color: #39006b;
 }
 .btn.my-button {
-    margin-top: 5px;
+    margin: 0.375rem 0;
     border: 1px solid white;
     color: white;
     background: black;
@@ -87,6 +87,10 @@ a:active {
     border: 1px solid white;
 }
 
+/* .dropdown-menu.dropdown-search-bar.show {
+    transform: translate3d(-270px, 45px, 0px);
+} */
+
 .btn {
     background: #39006b;
     transition: all 0.3s ease-in-out;
@@ -100,7 +104,7 @@ a:active {
 .dropdown-item {
     color: white;
 }
-@media only screen and (min-width: 470px) {
+@media only screen and (min-width: 495px) {
     .nav-links-desktop {
         display: inline;
     }
