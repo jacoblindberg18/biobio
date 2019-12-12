@@ -171,50 +171,21 @@ a:active {
     cursor: pointer;
 } */
 
-.container-footer {
-    width: 100%;
-    background: black;
-}
-.logo-circle {
-    position: relative;
-    display: inline-block;
-    width: 2.875rem;
-    height: 2.875rem;
-    background: #ffffff;
-    color: black;
-    border-radius: 50%;
+.bb-card {
+    color: white;
+    text-align: center;
 }
 
-.social-media-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
-    transition: 0.3s ease-out;
-    font-size: 1.5rem;
+.bb-button {
+    background-color: purple;
+    color: white;
 }
 
-.social-media-container:hover {
-    background: white;
-    color: #343a40;
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 470px) {
-    .social-media-container {
-        width: 2rem;
-        height: 2rem;
-        font-size: 1rem;
-    }
-    .contact-heading {
-        font-size: 18px;
-    }
-    .contact-info {
-        font-size: 12px;
-    }
+.europa-cinemas {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    box-shadow: 0 0 100px rgb(255, 247, 135);
 }
 
 hr {
@@ -262,4 +233,50 @@ label {
 
 #email-input::placeholder {
     font-style: italic;
+}
+
+.container-footer {
+    width: 100%;
+    background: black;
+}
+.logo-circle {
+    position: relative;
+    display: inline-block;
+    width: 2.875rem;
+    height: 2.875rem;
+    background: #ffffff;
+    color: black;
+    border-radius: 50%;
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.3s ease-out;
+    font-size: 1.5rem;
+}
+
+.social-media-container:hover {
+    background: white;
+    color: #343a40;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 470px) {
+    .social-media-container {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    .contact-heading {
+        font-size: 18px;
+    }
+    .contact-info {
+        font-size: 12px;
+    }
 }
