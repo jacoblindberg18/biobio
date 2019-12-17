@@ -97,7 +97,8 @@ a:active {
     border-radius: 8px;
 }
 /* --------BACKGROUND COLOR FOR BTN-class:hover------- */
-.btn:hover {
+.btn:hover,
+.btn:active {
     background: white;
     color: black;
 }
