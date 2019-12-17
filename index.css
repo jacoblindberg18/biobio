@@ -16,27 +16,27 @@ body {
     width: 100%;
     background-color: black;
 }
-a.nav-link:link,
+/* a.nav-link:link,
 a.nav-link:visited {
     color: white;
     display: inline-block;
     text-decoration: none;
-}
+} */
 
-a:hover,
+/* a:hover,
 a:active {
     color: white;
     background-color: #39006b;
-}
+} */
 .my-dropdown {
     background-color: black;
 }
-.my-dropdown > .nav-link:link,
+/* .my-dropdown > .nav-link:link,
 .nav-link:visited {
     color: white;
 
     display: inline-block;
-}
+} */
 .nav-fill .ham-menu {
     text-align: left;
 }
@@ -57,8 +57,8 @@ h6 {
     display: none;
 }
 
-.my-dropdown a:hover,
-a:active {
+.my-dropdown a:hover
+/* a:active */ {
     color: white;
     background-color: #39006b;
 }
