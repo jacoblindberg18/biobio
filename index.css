@@ -44,6 +44,9 @@ a:active {
 .nav-fill .search-bar {
     text-align: right;
 }
+.bb-logo {
+    height: 30px;
+}
 .dropdown-divider {
     border: 1px solid white;
     margin: 10px;
@@ -104,7 +107,7 @@ a:active {
 .dropdown-item {
     color: white;
 }
-@media only screen and (min-width: 495px) {
+@media only screen and (min-width: 680px) {
     .nav-links-desktop {
         display: inline;
     }
