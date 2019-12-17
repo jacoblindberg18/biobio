@@ -28,6 +28,9 @@ a:active {
     color: white;
     background-color: #39006b;
 }
+a > img:hover {
+    background: black;
+}
 .my-dropdown {
     background-color: black;
 }
