@@ -291,3 +291,8 @@ textarea {
 .QnA > h1 {
     margin-top: 2rem;
 }
+
+.google-map {
+    width: 100%;
+    height: auto;
+}
