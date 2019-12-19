@@ -296,3 +296,7 @@ textarea {
     width: 100%;
     height: auto;
 }
+
+#myModal {
+    color: black;
+}
